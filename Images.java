@@ -20,21 +20,21 @@ public class Images
 {
     ImageIcon LOGO = new ImageIcon("stimMegumiSensei.png");
     // hud moves
-    ImageIcon unAttackIcon = new ImageIcon("buttons/unselectedAttack.png");
-    ImageIcon unGuardIcon = new ImageIcon("buttons/unselectedGuard.png");
-    ImageIcon unMagicIcon = new ImageIcon("buttons/unselectedMagic.png");
-    ImageIcon unItemIcon = new ImageIcon("buttons/unselectedItem.png");
+    ImageIcon unAttackIcon = new ImageIcon("stim-megumi-sensei/buttons/unselectedAttack.png");
+    ImageIcon unGuardIcon = new ImageIcon("stim-megumi-sensei/buttons/unselectedGuard.png");
+    ImageIcon unMagicIcon = new ImageIcon("stim-megumi-sensei/buttons/unselectedMagic.png");
+    ImageIcon unItemIcon = new ImageIcon("stim-megumi-sensei/buttons/unselectedItem.png");
     
-    ImageIcon attackIcon = new ImageIcon("buttons/selectedAttack.png");
-    ImageIcon guardIcon = new ImageIcon("buttons/selectedGuard.png");
-    ImageIcon magicIcon = new ImageIcon("buttons/selectedMagic.png");
-    ImageIcon itemIcon = new ImageIcon("buttons/selectedItem.png");
+    ImageIcon attackIcon = new ImageIcon("stim-megumi-sensei/buttons/selectedAttack.png");
+    ImageIcon guardIcon = new ImageIcon("stim-megumi-sensei/buttons/selectedGuard.png");
+    ImageIcon magicIcon = new ImageIcon("stim-megumi-sensei/buttons/selectedMagic.png");
+    ImageIcon itemIcon = new ImageIcon("stim-megumi-sensei/buttons/selectedItem.png");
     
     // allies
-    ImageIcon aegisIMG = new ImageIcon("sprites/aegis.png");
-    ImageIcon dawnIMG = new ImageIcon("sprites/dawn.png");
-    ImageIcon sentinelIMG = new ImageIcon("sprites/sentinel.png");
-    ImageIcon blazeIMG = new ImageIcon("sprites/blaze.png");
+    ImageIcon aegisIMG = new ImageIcon("stim-megumi-sensei/sprites/aegis.png");
+    ImageIcon dawnIMG = new ImageIcon("stim-megumi-sensei/sprites/dawn.png");
+    ImageIcon sentinelIMG = new ImageIcon("stim-megumi-sensei/sprites/sentinel.png");
+    ImageIcon blazeIMG = new ImageIcon("stim-megumi-sensei/sprites/blaze.png");
     //turning allies into jlabels
     JLabel aegis = new JLabel(aegisIMG);
     JLabel dawn = new JLabel(dawnIMG);
@@ -42,10 +42,10 @@ public class Images
     JLabel blaze = new JLabel(blazeIMG);
     
     // enemies
-    ImageIcon virtueIMG = new ImageIcon("sprites/virtue1.png");
-    ImageIcon eerieIMG = new ImageIcon("sprites/eerie.png");
-    ImageIcon soulIMG = new ImageIcon("sprites/soul.png");
-    ImageIcon reignIMG = new ImageIcon("sprites/reign.png");
+    ImageIcon virtueIMG = new ImageIcon("stim-megumi-sensei/sprites/virtue1.png");
+    ImageIcon eerieIMG = new ImageIcon("stim-megumi-sensei/sprites/eerie.png");
+    ImageIcon soulIMG = new ImageIcon("stim-megumi-sensei/sprites/soul.png");
+    ImageIcon reignIMG = new ImageIcon("stim-megumi-sensei/sprites/reign.png");
     // turning enemies into jlabels
     JLabel virtue = new JLabel(virtueIMG);
     JLabel eerie = new JLabel(eerieIMG);
@@ -53,76 +53,76 @@ public class Images
     JLabel reign = new JLabel(reignIMG);
     
     // panels/backgronds
-    ImageIcon allyPanel = new ImageIcon("panels/allyPanel14.png");
-    ImageIcon gamePanel = new ImageIcon("panels/gamepanel.png");
-    ImageIcon enemyPanel = new ImageIcon("panels/enemyPanel14.png");
+    ImageIcon allyPanel = new ImageIcon("stim-megumi-sensei/panels/allyPanel14.png");
+    ImageIcon gamePanel = new ImageIcon("stim-megumi-sensei/panels/gamepanel.png");
+    ImageIcon enemyPanel = new ImageIcon("stim-megumi-sensei/panels/enemyPanel14.png");
     
     //sprites
-    ImageIcon aegisSelected = new ImageIcon("sprites/aegisSelected.png");
-    ImageIcon dawnSelected = new ImageIcon("sprites/dawnSelected.png");
-    ImageIcon sentinelSelected = new ImageIcon("sprites/sentinelSelected.png");
-    ImageIcon blazeSelected = new ImageIcon("sprites/blazeSelected.png");
-    ImageIcon virtueSelected = new ImageIcon("sprites/virtueSelected1.png");
-    ImageIcon eerieSelected = new ImageIcon("sprites/eerieSelected.png");
-    ImageIcon soulSelected = new ImageIcon("sprites/soulSelected.png");
-    ImageIcon reignSelected = new ImageIcon("sprites/reignSelected.png");
-    ImageIcon playerTurnOne = new ImageIcon("sprites/playerTurnOne.png");
-    ImageIcon playerTurnTwo = new ImageIcon("sprites/playerTurnTwo.png");
-    ImageIcon playerTurnThree = new ImageIcon("sprites/playerTurnThree.png");
-    ImageIcon playerTurnFour = new ImageIcon("sprites/playerTurnFour.png");
-    ImageIcon enemyTurnOne = new ImageIcon("sprites/enemyTurnOne.png");
-    ImageIcon enemyTurnTwo = new ImageIcon("sprites/enemyTurntwo.png");
-    ImageIcon enemyTurnThree = new ImageIcon("sprites/enemyTurnThree.png");
-    ImageIcon enemyTurnFour = new ImageIcon("sprites/enemyTurnFour.png");
-    ImageIcon youLoseOne = new ImageIcon("sprites/youLoseOne2.png");
-    ImageIcon youLoseTwo = new ImageIcon("sprites/youLoseTwo2.png");
-    ImageIcon youLoseThree = new ImageIcon("sprites/youLoseThree2.png");
-    ImageIcon youLoseFour = new ImageIcon("sprites/youLoseFour2.png");
-    ImageIcon youWinOne = new ImageIcon("sprites/youWinOne.png");
-    ImageIcon youWinTwo = new ImageIcon("sprites/youWinTwo.png");
-    ImageIcon youWinThree = new ImageIcon("sprites/youWinThree.png");
-    ImageIcon youWinFour = new ImageIcon("sprites/youWinFour.png");
+    ImageIcon aegisSelected = new ImageIcon("stim-megumi-sensei/sprites/aegisSelected.png");
+    ImageIcon dawnSelected = new ImageIcon("stim-megumi-sensei/sprites/dawnSelected.png");
+    ImageIcon sentinelSelected = new ImageIcon("stim-megumi-sensei/sprites/sentinelSelected.png");
+    ImageIcon blazeSelected = new ImageIcon("stim-megumi-sensei/sprites/blazeSelected.png");
+    ImageIcon virtueSelected = new ImageIcon("stim-megumi-sensei/sprites/virtueSelected1.png");
+    ImageIcon eerieSelected = new ImageIcon("stim-megumi-sensei/sprites/eerieSelected.png");
+    ImageIcon soulSelected = new ImageIcon("stim-megumi-sensei/sprites/soulSelected.png");
+    ImageIcon reignSelected = new ImageIcon("stim-megumi-sensei/sprites/reignSelected.png");
+    ImageIcon playerTurnOne = new ImageIcon("stim-megumi-sensei/sprites/playerTurnOne.png");
+    ImageIcon playerTurnTwo = new ImageIcon("stim-megumi-sensei/sprites/playerTurnTwo.png");
+    ImageIcon playerTurnThree = new ImageIcon("stim-megumi-sensei/sprites/playerTurnThree.png");
+    ImageIcon playerTurnFour = new ImageIcon("stim-megumi-sensei/sprites/playerTurnFour.png");
+    ImageIcon enemyTurnOne = new ImageIcon("stim-megumi-sensei/sprites/enemyTurnOne.png");
+    ImageIcon enemyTurnTwo = new ImageIcon("stim-megumi-sensei/sprites/enemyTurnTwo.png");
+    ImageIcon enemyTurnThree = new ImageIcon("stim-megumi-sensei/sprites/enemyTurnThree.png");
+    ImageIcon enemyTurnFour = new ImageIcon("stim-megumi-sensei/sprites/enemyTurnFour.png");
+    ImageIcon youLoseOne = new ImageIcon("stim-megumi-sensei/sprites/youLoseOne2.png");
+    ImageIcon youLoseTwo = new ImageIcon("stim-megumi-sensei/sprites/youLoseTwo2.png");
+    ImageIcon youLoseThree = new ImageIcon("stim-megumi-sensei/sprites/youLoseThree2.png");
+    ImageIcon youLoseFour = new ImageIcon("stim-megumi-sensei/sprites/youLoseFour2.png");
+    ImageIcon youWinOne = new ImageIcon("stim-megumi-sensei/sprites/youWinOne.png");
+    ImageIcon youWinTwo = new ImageIcon("stim-megumi-sensei/sprites/youWinTwo.png");
+    ImageIcon youWinThree = new ImageIcon("stim-megumi-sensei/sprites/youWinThree.png");
+    ImageIcon youWinFour = new ImageIcon("stim-megumi-sensei/sprites/youWinFour.png");
     ///
-    ImageIcon warningLeft = new ImageIcon("sprites/warnings/left.png");
-    ImageIcon warningRight = new ImageIcon("sprites/warnings/right.png");
-    ImageIcon affinitiesRevealed1 = new ImageIcon("sprites/warnings/affinitiesRevealed1.png");
-    ImageIcon affinitiesRevealed2 = new ImageIcon("sprites/warnings/affinitiesRevealed2.png");
-    ImageIcon fullHP1 = new ImageIcon("sprites/warnings/fullHP1.png");
-    ImageIcon fullHP2 = new ImageIcon("sprites/warnings/fullHP2.png");
-    ImageIcon isAlive1 = new ImageIcon("sprites/warnings/isAlive1.png");
-    ImageIcon isAlive2 = new ImageIcon("sprites/warnings/isAlive2.png");
-    ImageIcon isDead1 = new ImageIcon("sprites/warnings/isDead1.png");
-    ImageIcon isDead2 = new ImageIcon("sprites/warnings/isDead2.png");
-    ImageIcon maxSP1 = new ImageIcon("sprites/warnings/maxSP1.png");
-    ImageIcon maxSP2 = new ImageIcon("sprites/warnings/maxSP2.png");
-    ImageIcon noHP1 = new ImageIcon("sprites/warnings/noHP1.png");
-    ImageIcon noHP2 = new ImageIcon("sprites/warnings/noHP2.png");
-    ImageIcon noInjured1 = new ImageIcon("sprites/warnings/noInjured1.png");
-    ImageIcon noInjured2 = new ImageIcon("sprites/warnings/noInjured2.png");
-    ImageIcon noOneDead1 = new ImageIcon("sprites/warnings/noOneDead1.png");
-    ImageIcon noOneDead2 = new ImageIcon("sprites/warnings/noOneDead2.png");
-    ImageIcon noSP1 = new ImageIcon("sprites/warnings/noSP1.png");
-    ImageIcon noSP2 = new ImageIcon("sprites/warnings/noSP2.png");
-    ImageIcon noBoost1 = new ImageIcon("sprites/warnings/noBoost1.png");
-    ImageIcon noBoost2 = new ImageIcon("sprites/warnings/noBoost2.png");
+    ImageIcon warningLeft = new ImageIcon("stim-megumi-sensei/sprites/warnings/left.png");
+    ImageIcon warningRight = new ImageIcon("stim-megumi-sensei/sprites/warnings/right.png");
+    ImageIcon affinitiesRevealed1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/affinitiesRevealed1.png");
+    ImageIcon affinitiesRevealed2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/affinitiesRevealed2.png");
+    ImageIcon fullHP1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/fullHP1.png");
+    ImageIcon fullHP2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/fullHP2.png");
+    ImageIcon isAlive1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/isAlive1.png");
+    ImageIcon isAlive2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/isAlive2.png");
+    ImageIcon isDead1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/isDead1.png");
+    ImageIcon isDead2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/isDead2.png");
+    ImageIcon maxSP1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/maxSP1.png");
+    ImageIcon maxSP2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/maxSP2.png");
+    ImageIcon noHP1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noHP1.png");
+    ImageIcon noHP2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noHP2.png");
+    ImageIcon noInjured1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noInjured1.png");
+    ImageIcon noInjured2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noInjured2.png");
+    ImageIcon noOneDead1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noOneDead1.png");
+    ImageIcon noOneDead2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noOneDead2.png");
+    ImageIcon noSP1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noSP1.png");
+    ImageIcon noSP2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noSP2.png");
+    ImageIcon noBoost1 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noBoost1.png");
+    ImageIcon noBoost2 = new ImageIcon("stim-megumi-sensei/sprites/warnings/noBoost2.png");
     JLabel turnIndicatorOne = new JLabel(playerTurnOne);
     JLabel turnIndicatorTwo = new JLabel(playerTurnTwo);
     JLabel turnIndicatorThree = new JLabel(playerTurnThree);
     JLabel turnIndicatorFour = new JLabel(playerTurnFour);
     
     // elements and affinities
-    ImageIcon fire = new ImageIcon("elements/fire3.png");
-    ImageIcon water = new ImageIcon("elements/water3.png");
-    ImageIcon air = new ImageIcon("elements/air3.png");
-    ImageIcon earth = new ImageIcon("elements/earth3.png");
-    ImageIcon sun = new ImageIcon("elements/sun3.png");
-    ImageIcon moon = new ImageIcon("elements/moon3.png");
-    ImageIcon phys = new ImageIcon("elements/phys3.png");
-    ImageIcon weak = new ImageIcon("elements/weak3.png");
-    ImageIcon resist = new ImageIcon("elements/resist3.png");
-    ImageIcon nullify = new ImageIcon("elements/nullify3.png");
-    ImageIcon normal = new ImageIcon("elements/normal3.png");
-    ImageIcon unknown = new ImageIcon("elements/unknown.png");
+    ImageIcon fire = new ImageIcon("stim-megumi-sensei/elements/fire3.png");
+    ImageIcon water = new ImageIcon("stim-megumi-sensei/elements/water3.png");
+    ImageIcon air = new ImageIcon("stim-megumi-sensei/elements/air3.png");
+    ImageIcon earth = new ImageIcon("stim-megumi-sensei/elements/earth3.png");
+    ImageIcon sun = new ImageIcon("stim-megumi-sensei/elements/sun3.png");
+    ImageIcon moon = new ImageIcon("stim-megumi-sensei/elements/moon3.png");
+    ImageIcon phys = new ImageIcon("stim-megumi-sensei/elements/phys3.png");
+    ImageIcon weak = new ImageIcon("stim-megumi-sensei/elements/weak3.png");
+    ImageIcon resist = new ImageIcon("stim-megumi-sensei/elements/resist3.png");
+    ImageIcon nullify = new ImageIcon("stim-megumi-sensei/elements/nullify3.png");
+    ImageIcon normal = new ImageIcon("stim-megumi-sensei/elements/normal3.png");
+    ImageIcon unknown = new ImageIcon("stim-megumi-sensei/elements/unknown.png");
     JLabel elementOne = new JLabel(fire);
     JLabel elementTwo = new JLabel(water);
     JLabel elementThree = new JLabel(air);
@@ -139,12 +139,12 @@ public class Images
     JLabel affinitySeven = new JLabel(unknown);
     
     // game window overlay affinity weakness hitting notice thing
-    ImageIcon weakOverlay = new ImageIcon("elements/popUpWeak.png");
-    ImageIcon resistOverlay = new ImageIcon("elements/popUpResist.png");
-    ImageIcon nullOverlay = new ImageIcon("elements/popUpNull.png");
-    ImageIcon normalOverlay = new ImageIcon("elements/popUphit.png");
-    ImageIcon dead = new ImageIcon("elements/dead3.png");
-    ImageIcon test = new ImageIcon("elements/test.png");
+    ImageIcon weakOverlay = new ImageIcon("stim-megumi-sensei/elements/popUpWeak.png");
+    ImageIcon resistOverlay = new ImageIcon("stim-megumi-sensei/elements/popUpResist.png");
+    ImageIcon nullOverlay = new ImageIcon("stim-megumi-sensei/elements/popUpNull.png");
+    ImageIcon normalOverlay = new ImageIcon("stim-megumi-sensei/elements/popUphit.png");
+    ImageIcon dead = new ImageIcon("stim-megumi-sensei/elements/dead3.png");
+    ImageIcon test = new ImageIcon("stim-megumi-sensei/elements/test.png");
     JLabel enemyOneAffinity = new JLabel();
     JLabel enemyTwoAffinity = new JLabel();
     JLabel enemyThreeAffinity = new JLabel();
@@ -159,17 +159,17 @@ public class Images
     JLabel allyFourAffinity = new JLabel();
     
     // stat changes overlays
-    ImageIcon statOverlay = new ImageIcon("overlayBuffs/statsOverlay2.png");
-    ImageIcon atkUp = new ImageIcon("overlayBuffs/attackUp.png");
-    ImageIcon atkNorm = new ImageIcon("overlayBuffs/attackNormal2.png");
-    ImageIcon atkDown = new ImageIcon("overlayBuffs/attackDown.png");
-    ImageIcon defUp = new ImageIcon("overlayBuffs/defenseUp.png");
-    ImageIcon defNorm = new ImageIcon("overlayBuffs/defenseNormal2.png");
-    ImageIcon defDown = new ImageIcon("overlayBuffs/defenseDown.png");
-    ImageIcon guard = new ImageIcon("overlayBuffs/guard.png");
-    ImageIcon healed = new ImageIcon("overlayBuffs/healed.png");
-    ImageIcon buffed = new ImageIcon("overlayBuffs/buffed.png");
-    ImageIcon debuffed = new ImageIcon("overlayBuffs/debuffed.png");
+    ImageIcon statOverlay = new ImageIcon("stim-megumi-sensei/overlayBuffs/statsOverlay2.png");
+    ImageIcon atkUp = new ImageIcon("stim-megumi-sensei/overlayBuffs/attackUp.png");
+    ImageIcon atkNorm = new ImageIcon("stim-megumi-sensei/overlayBuffs/attackNormal2.png");
+    ImageIcon atkDown = new ImageIcon("stim-megumi-sensei/overlayBuffs/attackDown.png");
+    ImageIcon defUp = new ImageIcon("stim-megumi-sensei/overlayBuffs/defenseUp.png");
+    ImageIcon defNorm = new ImageIcon("stim-megumi-sensei/overlayBuffs/defenseNormal2.png");
+    ImageIcon defDown = new ImageIcon("stim-megumi-sensei/overlayBuffs/defenseDown.png");
+    ImageIcon guard = new ImageIcon("stim-megumi-sensei/overlayBuffs/guard.png");
+    ImageIcon healed = new ImageIcon("stim-megumi-sensei/overlayBuffs/healed.png");
+    ImageIcon buffed = new ImageIcon("stim-megumi-sensei/overlayBuffs/buffed.png");
+    ImageIcon debuffed = new ImageIcon("stim-megumi-sensei/overlayBuffs/debuffed.png");
     JLabel filler1 = new JLabel();
     JLabel filler2 = new JLabel();
     JLabel filler3 = new JLabel();
@@ -220,132 +220,141 @@ public class Images
     JLabel defenseOverlay8 = new JLabel(defNorm);
     
     // tutotiral assets
-    ImageIcon rightArrow = new ImageIcon("tutorial/rightArrowSmall.png");
-    ImageIcon leftArrow = new ImageIcon("tutorial/leftArrowSmall.png");
-    ImageIcon tutorial1 = new ImageIcon("tutorial/1overview.png");
-    ImageIcon tutorial2 = new ImageIcon("tutorial/2moves.png");
-    ImageIcon tutorial3 = new ImageIcon("tutorial/3basicAttack.png");
-    ImageIcon tutorial4 = new ImageIcon("tutorial/4guard.png");
-    ImageIcon tutorial5 = new ImageIcon("tutorial/5magic.png");
-    ImageIcon tutorial6 = new ImageIcon("tutorial/6elementalAffinities.png");
-    ImageIcon tutorial7 = new ImageIcon("tutorial/7singleTargetMagic.png");
-    ImageIcon tutorial8 = new ImageIcon("tutorial/8targetAllMagic.png");
-    ImageIcon tutorial9 = new ImageIcon("tutorial/9healing.png");
-    ImageIcon tutorial10 = new ImageIcon("tutorial/10revives.png");
-    ImageIcon tutorial11 = new ImageIcon("tutorial/11stats.png");
-    ImageIcon tutorial12 = new ImageIcon("tutorial/12items.png");
-    ImageIcon tutorial13 = new ImageIcon("tutorial/13oracleLens.png");
-    ImageIcon tutorial14 = new ImageIcon("tutorial/14checkingAffinities.png");
-    ImageIcon tutorial15 = new ImageIcon("tutorial/15everfrost.png");
-    ImageIcon tutorial16 = new ImageIcon("tutorial/16lightningCrash.png");
-    ImageIcon tutorial17 = new ImageIcon("tutorial/17shock.png");
-    ImageIcon tutorial18 = new ImageIcon("tutorial/18cleanse.png");
-    ImageIcon tutorial19 = new ImageIcon("tutorial/19difficulty.png");
-    ImageIcon tutorial20 = new ImageIcon("tutorial/20battleLog.png");
+    ImageIcon rightArrow = new ImageIcon("stim-megumi-sensei/tutorial/rightArrowSmall.png");
+    ImageIcon leftArrow = new ImageIcon("stim-megumi-sensei/tutorial/leftArrowSmall.png");
+    ImageIcon tutorial1 = new ImageIcon("stim-megumi-sensei/tutorial/1overview.png");
+    ImageIcon tutorial2 = new ImageIcon("stim-megumi-sensei/tutorial/2moves.png");
+    ImageIcon tutorial3 = new ImageIcon("stim-megumi-sensei/tutorial/3basicAttack.png");
+    ImageIcon tutorial4 = new ImageIcon("stim-megumi-sensei/tutorial/4guard.png");
+    ImageIcon tutorial5 = new ImageIcon("stim-megumi-sensei/tutorial/5magic.png");
+    ImageIcon tutorial6 = new ImageIcon("stim-megumi-sensei/tutorial/6elementalAffinities.png");
+    ImageIcon tutorial7 = new ImageIcon("stim-megumi-sensei/tutorial/7singleTargetMagic.png");
+    ImageIcon tutorial8 = new ImageIcon("stim-megumi-sensei/tutorial/8targetAllMagic.png");
+    ImageIcon tutorial9 = new ImageIcon("stim-megumi-sensei/tutorial/9healing.png");
+    ImageIcon tutorial10 = new ImageIcon("stim-megumi-sensei/tutorial/10revives.png");
+    ImageIcon tutorial11 = new ImageIcon("stim-megumi-sensei/tutorial/11stats.png");
+    ImageIcon tutorial12 = new ImageIcon("stim-megumi-sensei/tutorial/12items.png");
+    ImageIcon tutorial13 = new ImageIcon("stim-megumi-sensei/tutorial/13oracleLens.png");
+    ImageIcon tutorial14 = new ImageIcon("stim-megumi-sensei/tutorial/14checkingAffinities.png");
+    ImageIcon tutorial15 = new ImageIcon("stim-megumi-sensei/tutorial/15everfrost.png");
+    ImageIcon tutorial16 = new ImageIcon("stim-megumi-sensei/tutorial/16lightningCrash.png");
+    ImageIcon tutorial17 = new ImageIcon("stim-megumi-sensei/tutorial/17shock.png");
+    ImageIcon tutorial18 = new ImageIcon("stim-megumi-sensei/tutorial/18cleanse.png");
+    ImageIcon tutorial19 = new ImageIcon("stim-megumi-sensei/tutorial/19difficulty.png");
+    ImageIcon tutorial20 = new ImageIcon("stim-megumi-sensei/tutorial/20battleLog.png");
     
     
     // move icons
     // These ability names are all from league of legends, but according to their "legal jibber jabber" document, I am allowed
     // to use assets of the league IP as long as it is for non commercial use
     // 0 fire // alchemy symbol: fire
-    ImageIcon pyroclasm = new ImageIcon("moves/0fire/pyroclasm.png"); // fire to all
-    ImageIcon unPyroclasm = new ImageIcon("moves/0fire/pyroclasmUn.png"); // fire to all
-    ImageIcon sear = new ImageIcon("moves/0fire/sear.png"); // fire to one
-    ImageIcon unSear = new ImageIcon("moves/0fire/searUn.png"); // fire to one
+    ImageIcon pyroclasm = new ImageIcon("stim-megumi-sensei/moves/0fire/pyroclasm.png"); // fire to all
+    ImageIcon unPyroclasm = new ImageIcon("stim-megumi-sensei/moves/0fire/pyroclasmUn.png"); // fire to all
+    ImageIcon sear = new ImageIcon("stim-megumi-sensei/moves/0fire/sear.png"); // fire to one
+    ImageIcon unSear = new ImageIcon("stim-megumi-sensei/moves/0fire/searUn.png"); // fire to one
     
     // 1 water // alchemy symbol: water
-    ImageIcon aquaPrison = new ImageIcon("moves/1water/aquaPrison.png"); // water to one
-    ImageIcon unAquaPrison = new ImageIcon("moves/1water/aquaPrisonUn.png"); // water to one
-    ImageIcon surgingTide = new ImageIcon("moves/1water/surgingTide.png"); // water to all
-    ImageIcon unSurgingTide = new ImageIcon("moves/1water/surgingTideUn.png"); // water to all
+    ImageIcon aquaPrison = new ImageIcon("stim-megumi-sensei/moves/1water/aquaPrison.png"); // water to one
+    ImageIcon unAquaPrison = new ImageIcon("stim-megumi-sensei/moves/1water/aquaPrisonUn.png"); // water to one
+    ImageIcon surgingTide = new ImageIcon("stim-megumi-sensei/moves/1water/surgingTide.png"); // water to all
+    ImageIcon unSurgingTide = new ImageIcon("stim-megumi-sensei/moves/1water/surgingTideUn.png"); // water to all
     
     // 2 air // alchemy symbol: air
-    ImageIcon monsoon = new ImageIcon("moves/2wind/monsoon.png"); // wind to all
-    ImageIcon unMonsoon = new ImageIcon("moves/2wind/monsoonUn.png"); // wind to all
-    ImageIcon zephyr = new ImageIcon("moves/2wind/zephyr.png"); // wind to one
-    ImageIcon unZephyr = new ImageIcon("moves/2wind/zephyrUn.png"); // wind to one
+    ImageIcon monsoon = new ImageIcon("stim-megumi-sensei/moves/2wind/monsoon.png"); // wind to all
+    ImageIcon unMonsoon = new ImageIcon("stim-megumi-sensei/moves/2wind/monsoonUn.png"); // wind to all
+    ImageIcon zephyr = new ImageIcon("stim-megumi-sensei/moves/2wind/zephyr.png"); // wind to one
+    ImageIcon unZephyr = new ImageIcon("stim-megumi-sensei/moves/2wind/zephyrUn.png"); // wind to one
     
     // 3 earth // alchemy symbol: earth
-    ImageIcon magnetStorm = new ImageIcon("moves/3earth/magnetStorm.png"); // earth to all
-    ImageIcon unMagnetStorm = new ImageIcon("moves/3earth/magnetStormUn.png"); // earth to all
-    ImageIcon shatteringStrike = new ImageIcon("moves/3earth/shatteringStrike.png"); // earth to one
-    ImageIcon unShatteringStrike = new ImageIcon("moves/3earth/shatteringStrikeUn.png"); // earth to one
+    ImageIcon magnetStorm = new ImageIcon("stim-megumi-sensei/moves/3earth/magnetStorm.png"); // earth to all
+    ImageIcon unMagnetStorm = new ImageIcon("stim-megumi-sensei/moves/3earth/magnetStormUn.png"); // earth to all
+    ImageIcon shatteringStrike = new ImageIcon("stim-megumi-sensei/moves/3earth/shatteringStrike.png"); // earth to one
+    ImageIcon unShatteringStrike = new ImageIcon("stim-megumi-sensei/moves/3earth/shatteringStrikeUn.png"); // earth to one
     
     // 4 sun // alchemy symbol: sun
-    ImageIcon solarFlare = new ImageIcon("moves/4sun/solarFlare.png"); // sun to all
-    ImageIcon unSolarFlare = new ImageIcon("moves/4sun/solarFlareUn.png"); // sun to all
-    ImageIcon zenithBlade = new ImageIcon("moves/4sun/zenithBlade.png"); // sun to one
-    ImageIcon unZenithBlade = new ImageIcon("moves/4sun/zenithBladeUn.png"); // sun to one
+    ImageIcon solarFlare = new ImageIcon("stim-megumi-sensei/moves/4sun/solarFlare.png"); // sun to all
+    ImageIcon unSolarFlare = new ImageIcon("stim-megumi-sensei/moves/4sun/solarFlareUn.png"); // sun to all
+    ImageIcon zenithBlade = new ImageIcon("stim-megumi-sensei/moves/4sun/zenithBlade.png"); // sun to one
+    ImageIcon unZenithBlade = new ImageIcon("stim-megumi-sensei/moves/4sun/zenithBladeUn.png"); // sun to one
     
     // 5 moon // alchemy symbol: moon
-    ImageIcon lunarRush = new ImageIcon("moves/5moon/lunarRush.png"); // moon to one
-    ImageIcon unLunarRush = new ImageIcon("moves/5moon/lunarRushUn.png"); // moon to one
-    ImageIcon moonfall = new ImageIcon("moves/5moon/moonfall.png"); // moon to all
-    ImageIcon unMoonfall = new ImageIcon("moves/5moon/moonfallUn.png"); // moon to all
+    ImageIcon lunarRush = new ImageIcon("stim-megumi-sensei/moves/5moon/lunarRush.png"); // moon to one
+    ImageIcon unLunarRush = new ImageIcon("stim-megumi-sensei/moves/5moon/lunarRushUn.png"); // moon to one
+    ImageIcon moonfall = new ImageIcon("stim-megumi-sensei/moves/5moon/moonfall.png"); // moon to all
+    ImageIcon unMoonfall = new ImageIcon("stim-megumi-sensei/moves/5moon/moonfallUn.png"); // moon to all
     
     // 6 phys // alchemy symbol: lead
-    ImageIcon needlework = new ImageIcon("moves/6phys/needlework.png"); // phys to all
-    ImageIcon unNeedlework = new ImageIcon("moves/6phys/needleworkUn.png"); // phys to all
-    ImageIcon snipSnip = new ImageIcon("moves/6phys/snipSnip.png"); // phys to one
-    ImageIcon unSnipSnip = new ImageIcon("moves/6phys/snipSnipUn.png"); // phys to one
+    ImageIcon needlework = new ImageIcon("stim-megumi-sensei/moves/6phys/needlework.png"); // phys to all
+    ImageIcon unNeedlework = new ImageIcon("stim-megumi-sensei/moves/6phys/needleworkUn.png"); // phys to all
+    ImageIcon snipSnip = new ImageIcon("stim-megumi-sensei/moves/6phys/snipSnip.png"); // phys to one
+    ImageIcon unSnipSnip = new ImageIcon("stim-megumi-sensei/moves/6phys/snipSnipUn.png"); // phys to one
     
     // 7 healing // alchemy symbol: vinegar
-    ImageIcon redemption = new ImageIcon("moves/7heal/redemption.png"); // healing to one
-    ImageIcon unRedemption = new ImageIcon("moves/7heal/redemptionUn.png"); // healing to one
-    ImageIcon guardianAngel = new ImageIcon("moves/7heal/guardianAngel.png"); // revive to one
-    ImageIcon unGuardianAngel = new ImageIcon("moves/7heal/guardianAngelUn.png"); // revive to one
+    ImageIcon redemption = new ImageIcon("stim-megumi-sensei/moves/7heal/redemption.png"); // healing to one
+    ImageIcon unRedemption = new ImageIcon("stim-megumi-sensei/moves/7heal/redemptionUn.png"); // healing to one
+    ImageIcon guardianAngel = new ImageIcon("stim-megumi-sensei/moves/7heal/guardianAngel.png"); // revive to one
+    ImageIcon unGuardianAngel = new ImageIcon("stim-megumi-sensei/moves/7heal/guardianAngelUn.png"); // revive to one
      
     // 8 stat boosts // alchemy symbol sulfur
-    ImageIcon atkBoost = new ImageIcon("moves/8buff/atkBoost.png"); // take a wild guess at what these do
-    ImageIcon unAtkBoost = new ImageIcon("moves/8buff/atkBoostUn.png");
-    ImageIcon defBoost = new ImageIcon("moves/8buff/defBoost.png");
-    ImageIcon unDefBoost = new ImageIcon("moves/8buff/defBoostUn.png");
-    ImageIcon aglBoost = new ImageIcon("moves/8buff/aglBoost.png");
-    ImageIcon unAglBoost = new ImageIcon("moves/8buff/aglBoostUn.png");
-    ImageIcon atkDownTwo = new ImageIcon("moves/8buff/atkDown.png");
-    ImageIcon unAtkDown = new ImageIcon("moves/8buff/atkDownUn.png");
+    ImageIcon atkBoost = new ImageIcon("stim-megumi-sensei/moves/8buff/atkBoost.png"); // take a wild guess at what these do
+    ImageIcon unAtkBoost = new ImageIcon("stim-megumi-sensei/moves/8buff/atkBoostUn.png");
+    ImageIcon defBoost = new ImageIcon("stim-megumi-sensei/moves/8buff/defBoost.png");
+    ImageIcon unDefBoost = new ImageIcon("stim-megumi-sensei/moves/8buff/defBoostUn.png");
+    ImageIcon aglBoost = new ImageIcon("stim-megumi-sensei/moves/8buff/aglBoost.png");
+    ImageIcon unAglBoost = new ImageIcon("stim-megumi-sensei/moves/8buff/aglBoostUn.png");
+    ImageIcon atkDownTwo = new ImageIcon("stim-megumi-sensei/moves/8buff/atkDown.png");
+    ImageIcon unAtkDown = new ImageIcon("stim-megumi-sensei/moves/8buff/atkDownUn.png");
     
     // 9 items // alchemy symbol potash
-    ImageIcon oracleLens = new ImageIcon("moves/9item/oracleLens.png"); // reveals affinity of one enemy
-    ImageIcon unOracleLens = new ImageIcon("moves/9item/oracleLensUn.png"); // reveals affinity of one enemy
-    ImageIcon everfrost = new ImageIcon("moves/9item/everfrost.png"); // restores mana to ally
-    ImageIcon unEverfrost = new ImageIcon("moves/9item/everfrostUn.png"); // restores mana to ally
-    ImageIcon lightningCrash = new ImageIcon("moves/9item/lightningCrash.png"); // shock one enemy
-    ImageIcon unLightningCrash = new ImageIcon("moves/9item/lightningCrashUn.png"); // shock one enemy
-    ImageIcon focus = new ImageIcon("moves/9item/focus.png"); // shock one enemy
-    ImageIcon unFocus = new ImageIcon("moves/9item/focusUn.png"); // shock one enemy
-    ImageIcon cleanse = new ImageIcon("moves/9item/cleanse.png");
-    ImageIcon unCleanse = new ImageIcon("moves/9item/cleanseUn.png");
+    ImageIcon oracleLens = new ImageIcon("stim-megumi-sensei/moves/9item/oracleLens.png"); // reveals affinity of one enemy
+    ImageIcon unOracleLens = new ImageIcon("stim-megumi-sensei/moves/9item/oracleLensUn.png"); // reveals affinity of one enemy
+    ImageIcon everfrost = new ImageIcon("stim-megumi-sensei/moves/9item/everfrost.png"); // restores mana to ally
+    ImageIcon unEverfrost = new ImageIcon("stim-megumi-sensei/moves/9item/everfrostUn.png"); // restores mana to ally
+    ImageIcon lightningCrash = new ImageIcon("stim-megumi-sensei/moves/9item/lightningCrash.png"); // shock one enemy
+    ImageIcon unLightningCrash = new ImageIcon("stim-megumi-sensei/moves/9item/lightningCrashUn.png"); // shock one enemy
+    ImageIcon focus = new ImageIcon("stim-megumi-sensei/moves/9item/focus.png"); // shock one enemy
+    ImageIcon unFocus = new ImageIcon("stim-megumi-sensei/moves/9item/focusUn.png"); // shock one enemy
+    ImageIcon cleanse = new ImageIcon("stim-megumi-sensei/moves/9item/cleanse.png");
+    ImageIcon unCleanse = new ImageIcon("stim-megumi-sensei/moves/9item/cleanseUn.png");
     
     // enemy select buttons
-    ImageIcon enemyOne = new ImageIcon("buttons/enemyOne.png");
-    ImageIcon enemyTwo = new ImageIcon("buttons/enemyTwo.png");
-    ImageIcon enemyThree = new ImageIcon("buttons/enemyThree.png");
-    ImageIcon enemyFour = new ImageIcon("buttons/enemyFour.png");
-    ImageIcon unEnemyOne = new ImageIcon("buttons/enemyOneUn.png");
-    ImageIcon unEnemyTwo = new ImageIcon("buttons/enemyTwoUn.png");
-    ImageIcon unEnemyThree = new ImageIcon("buttons/enemyThreeUn.png");
-    ImageIcon unEnemyFour = new ImageIcon("buttons/enemyFourUn.png");
+    ImageIcon enemyOne = new ImageIcon("stim-megumi-sensei/buttons/enemyOne.png");
+    ImageIcon enemyTwo = new ImageIcon("stim-megumi-sensei/buttons/enemyTwo.png");
+    ImageIcon enemyThree = new ImageIcon("stim-megumi-sensei/buttons/enemyThree.png");
+    ImageIcon enemyFour = new ImageIcon("stim-megumi-sensei/buttons/enemyFour.png");
+    ImageIcon unEnemyOne = new ImageIcon("stim-megumi-sensei/buttons/enemyOneUn.png");
+    ImageIcon unEnemyTwo = new ImageIcon("stim-megumi-sensei/buttons/enemyTwoUn.png");
+    ImageIcon unEnemyThree = new ImageIcon("stim-megumi-sensei/buttons/enemyThreeUn.png");
+    ImageIcon unEnemyFour = new ImageIcon("stim-megumi-sensei/buttons/enemyFourUn.png");
     
     // ally select buttons
-    ImageIcon allyOne = new ImageIcon("buttons/allyOne.png");
-    ImageIcon allyTwo = new ImageIcon("buttons/allyTwo.png");
-    ImageIcon allyThree = new ImageIcon("buttons/allyThree.png");
-    ImageIcon allyFour = new ImageIcon("buttons/allyFour.png");
-    ImageIcon unAllyOne = new ImageIcon("buttons/allyOneUn.png");
-    ImageIcon unAllyTwo = new ImageIcon("buttons/allyTwoUn.png");
-    ImageIcon unAllyThree = new ImageIcon("buttons/allyThreeUn.png");
-    ImageIcon unAllyFour = new ImageIcon("buttons/allyFourUn.png");
+    ImageIcon allyOne = new ImageIcon("stim-megumi-sensei/buttons/allyOne.png");
+    ImageIcon allyTwo = new ImageIcon("stim-megumi-sensei/buttons/allyTwo.png");
+    ImageIcon allyThree = new ImageIcon("stim-megumi-sensei/buttons/allyThree.png");
+    ImageIcon allyFour = new ImageIcon("stim-megumi-sensei/buttons/allyFour.png");
+    ImageIcon unAllyOne = new ImageIcon("stim-megumi-sensei/buttons/allyOneUn.png");
+    ImageIcon unAllyTwo = new ImageIcon("stim-megumi-sensei/buttons/allyTwoUn.png");
+    ImageIcon unAllyThree = new ImageIcon("stim-megumi-sensei/buttons/allyThreeUn.png");
+    ImageIcon unAllyFour = new ImageIcon("stim-megumi-sensei/buttons/allyFourUn.png");
     
     // other, lmao
-    ImageIcon back = new ImageIcon("buttons/backSelected.png");
-    ImageIcon unBack = new ImageIcon("buttons/back.png");
-    ImageIcon currentAegis = new ImageIcon("buttons/currentAegis.png");
-    ImageIcon currentBlaze = new ImageIcon("buttons/currentBlaze.png");
-    ImageIcon currentDawn = new ImageIcon("buttons/currentDawn.png");
-    ImageIcon currentEerie = new ImageIcon("buttons/currentEerie.png");
-    ImageIcon currentReign = new ImageIcon("buttons/currentReign.png");
-    ImageIcon currentSentinel = new ImageIcon("buttons/currentSentinel.png");
-    ImageIcon currentSoul = new ImageIcon("buttons/currentSoul.png");
-    ImageIcon currentVirtue = new ImageIcon("buttons/currentVirtue.png");
+    ImageIcon back = new ImageIcon("stim-megumi-sensei/buttons/backSelected.png");
+    ImageIcon unBack = new ImageIcon("stim-megumi-sensei/buttons/back.png");
+    static ImageIcon currentAegis = new ImageIcon("stim-megumi-sensei/buttons/currentAegis.png");
+    ImageIcon currentBlaze = new ImageIcon("stim-megumi-sensei/buttons/currentBlaze.png");
+    ImageIcon currentDawn = new ImageIcon("stim-megumi-sensei/buttons/currentDawn.png");
+    ImageIcon currentEerie = new ImageIcon("stim-megumi-sensei/buttons/currentEerie.png");
+    ImageIcon currentReign = new ImageIcon("stim-megumi-sensei/buttons/currentReign.png");
+    ImageIcon currentSentinel = new ImageIcon("stim-megumi-sensei/buttons/currentSentinel.png");
+    ImageIcon currentSoul = new ImageIcon("stim-megumi-sensei/buttons/currentSoul.png");
+    ImageIcon currentVirtue = new ImageIcon("stim-megumi-sensei/buttons/currentVirtue.png");
+
+    public static void main(String[] args){
+        System.out.println("Does this work?");
+        if (currentAegis.getImageLoadStatus() == java.awt.MediaTracker.ERRORED) {
+            System.out.println("Path is INCORRECT: The image could not be loaded.");
+        } else {
+            System.out.println("Path is CORRECT: The image loaded successfully.");
+        }
+    }
 }
